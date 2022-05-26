@@ -61,7 +61,7 @@
                 ", " +
                 todayDate.getHours() +
                 ":" +
-                todayDate.getMinutes()
+                todayDate.getMinutes().toString().padStart(2,"0")
 
             dateHeader.style.textAlign = "center"
             dateHeader.style.fontWeight = "bold"
